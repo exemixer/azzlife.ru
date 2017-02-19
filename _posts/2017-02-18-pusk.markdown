@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Запуск блога"
+description: "Запуск моего блога на jekyll"
+category: news 
+catname: Новости
+image: "/blog/news/"
+icon: newspaper-o
+slug: pusk
+permalink: "/blog/:categories/:year-:month-:day-:slug.html"
+---
+Запуск блога 
+
