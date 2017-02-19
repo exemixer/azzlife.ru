@@ -1,0 +1,2 @@
+# azzlife.ru
+My blog
