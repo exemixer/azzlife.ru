@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Запуск блога"
-description: "Запуск моего блога на jekyll"
+description: "Запуск блога"
 category: news 
 catname: Новости
 image: "/blog/news/"
