@@ -9,5 +9,5 @@ icon: newspaper-o
 slug: pusk
 permalink: "/blog/:categories/:year-:month-:day-:slug.html"
 ---
-
+Вот наконец свершилось. Я завел себе блог 
 
