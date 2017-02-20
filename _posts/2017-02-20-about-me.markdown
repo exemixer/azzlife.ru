@@ -9,5 +9,5 @@ icon: newspaper-o
 slug: about-me
 permalink: "/blog/:categories/:year-:month-:day-:slug.html"
 ---
-Запуск блога 
+ye xnj hfccrfpfnm j ct,t lf;t yt pyf.
 
