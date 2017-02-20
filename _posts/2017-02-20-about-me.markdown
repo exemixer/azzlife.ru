@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Немного о себе "
+description: "Вводная стать я о себе люимом"
+category: me 
+catname: Новости
+image: "/blog/me/"
+icon: newspaper-o
+slug: about-me
+permalink: "/blog/:categories/:year-:month-:day-:slug.html"
+---
+Запуск блога 
+
