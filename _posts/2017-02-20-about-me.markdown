@@ -9,9 +9,8 @@ icon: newspaper-o
 slug: about-me
 permalink: "/blog/:categories/:year-:month-:day-:slug.html"
 ---
-<<<<<<< HEAD
-ye xnj hfccrfpfnm j ct,t lf;t yt pyf.
-=======
-ну что рассказать о себе даже не знаю (тест)
->>>>>>> refs/remotes/origin/gh-page
+
+
+ну что рассказать о себе даже не знаю
+
 
