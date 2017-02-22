@@ -4,26 +4,26 @@ layout: default
 {% for post in site.categories.verstka %}
 
 <div class="post">
-            <a class="post-item" href="{{ post.url|prepend: site.baseurl }}">
-              <div class="post-img">
-                <img class="responsive-img" src="http://127.0.0.1:4000/assets/img/post/rocket.jpg" alt="">
+            <div class="post-img">
+                <img class="responsive-img" src="{{ site.baseurl }}{{ page.image}}/{{ page.slug }}.jpg" alt="">
               </div>
               <div class="post-contant">
-                
-                  <div class="td">
+                <div class="td">
                   <div class="date-item">
-                    <h5 class="text-date" >16<br><small>02/2017</small></h3>
+                    <h5 class="text-date">{{ page.date | date:"%d" }}<br><small>{{ page.date | date:"%m/%Y" }} </small></h5>
                   </div>
                   </div>
                   <div class="td">
-                    <span class="title"><i class="fa fa-{{ post.icon }} " aria-hidden="true"></i>{{ post.catname }} <br></span>
-                    <span class="title-name"> {{ post.title }}</span>
-                  </div>
-                
-                
-                
+                    <span class="title"><i class="fa fa-{{ page.icon }} " aria-hidden="true"></i> {{ page.catname }} <br></span>
+                    <span class="title-name"> {{ page.title }}</span>
+                    
+                  </div>               
               </div>
-            </a>
+            
+            <p>{{ content }} </p>
+
+          </div>
+
           </div>
 
 {% endfor %}
