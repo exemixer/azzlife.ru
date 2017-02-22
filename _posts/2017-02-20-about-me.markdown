@@ -5,7 +5,7 @@ description: "Вводная стать я о себе люимом"
 category: me 
 catname: Новости
 image: "/blog/me/"
-icon: newspaper-o
+icon: circle-o
 slug: about-me
 permalink: "/blog/:categories/:year-:month-:day-:slug.html"
 ---
