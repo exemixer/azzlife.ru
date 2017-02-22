@@ -6,7 +6,7 @@ layout: default
 <div class="post">
             <a class="post-item" href="{{ post.url|prepend: site.baseurl }}">
               <div class="post-img">
-                <img class="responsive-img" src="{{ site.baseurl }}{{ post.image}}{{ post.slug }}.jpg" alt="">
+                <img class="responsive-img" src="{{ site.baseurl }}{{ post.image}}{{ post.slug }}.jpg" alt="{{ post.slug }}">
               </div>
               <div class="post-contant">
                 
