@@ -6,13 +6,13 @@ layout: default
 <div class="post">
             <a class="post-item" href="{{ post.url|prepend: site.baseurl }}">
               <div class="post-img">
-                <img class="responsive-img" src="{{ site.baseurl }}{{ page.image}}{{ page.slug }}.jpg" alt="">
+                <img class="responsive-img" src="{{ site.baseurl }}{{ post.image}}{{ post.slug }}.jpg" alt="">
               </div>
               <div class="post-contant">
                 
                   <div class="td">
                   <div class="date-item">
-                    <h5 class="text-date" >{{ page.date | date:"%d" }}<br><small>{{ page.date | date:"%m/%Y" }} </h5>
+                    <h5 class="text-date" >{{ post.date | date:"%d" }}<br><small>{{ post.date | date:"%m/%Y" }} </h5>
                   </div>
                   </div>
                   <div class="td">
