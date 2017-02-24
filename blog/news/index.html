@@ -4,20 +4,20 @@ layout: default
 {% for post in site.categories.news %}
 
 <div class="post">
-            <a class="post-item" href="{{ page.url|prepend: site.baseurl }}">
+            <a class="post-item" href="{{ post.url|prepend: site.baseurl }}">
               <div class="post-img">
-                <img class="responsive-img" src="{{ site.baseurl }}{{ page.image}}{{ page.slug }}.jpg" alt="{{ page.slug }}">
+                <img class="responsive-img" src="{{ site.baseurl }}{{ post.image}}{{ post.slug }}.jpg" alt="{{ post.slug }}">
               </div>
               <div class="post-contant">
                 
                   <div class="td">
                   <div class="date-item">
-                    <h5 class="text-date" >{{ page.date | date:"%d" }}<br><small>{{ page.date | date:"%m/%Y" }} </h5>
+                    <h5 class="text-date" >{{ post.date | date:"%d" }}<br><small>{{ post.date | date:"%m/%Y" }} </h5>
                   </div>
                   </div>
                   <div class="td">
-                    <span class="title"><i class="fa fa-{{ page.icon }} " aria-hidden="true"></i>{{ page.catname }} <br></span>
-                    <span class="title-name"> {{ page.title }}</span>
+                    <span class="title"><i class="fa fa-{{ post.icon }} " aria-hidden="true"></i>{{ post.catname }} <br></span>
+                    <span class="title-name"> {{ post.title }}</span>
                   </div>       
               </div>
             </a>
