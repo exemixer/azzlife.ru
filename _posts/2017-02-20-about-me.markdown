@@ -1,16 +1,14 @@
 ---
 layout: post
 title:  "Немного о себе "
-description: "Вводная стать я о себе люимом"
+description: "Вводная стать я о Azzlife"
 category: me 
 catname: Новости
 image: "/blog/me/"
-icon: circle-o
+icon: user-circle-o
 slug: about-me
 permalink: "/blog/:categories/:year-:month-:day-:slug.html"
 ---
 
-
-ну что рассказать о себе даже не знаю
 
 
