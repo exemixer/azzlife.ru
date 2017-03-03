@@ -10,6 +10,6 @@ slug: alexandr
 permalink: "/blog/:categories/:year-:month-:day-:slug.html"
 ---
 <p style=" padding: 0 10px; text-indent: 20px;" >Этот пост посвящяется моему другу Александру.<br>  
-Уважаемый Александр я тебя очень сильно уважаю...конечно я все тебе расскажу и покажу.... <a href="https://vk.com/club140452282">"Вконтакте"</a> и на <a href="https://www.facebook.com/groups/1855632634650039/">"Facebook"</a>.<br>
+Уважаемый Александр я тебя очень сильно уважаю...конечно я все тебе расскажу и покажу.... А еще ты готов затра оставить частичку своей печени за здоровье и благополучие Марии Зорговны<a href="https://vk.com/club140452282">"Вконтакте"</a> и на <a href="https://www.facebook.com/groups/1855632634650039/">"Facebook"</a>.<br>
 С уважением Azzlife<p>
 
