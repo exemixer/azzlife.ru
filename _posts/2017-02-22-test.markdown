@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Запуск блога"
-description: "Запуск блога"
+title:  "Специально для Сашеля )))!!!"
+description: "Санек ты просто космос!"
 category: news 
 catname: Новости
 image: "/blog/news/"
