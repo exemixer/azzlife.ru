@@ -6,7 +6,7 @@ category: offtop
 catname: Оффтоп
 image: "/blog/news/"
 icon: beer
-slug: Happy_father
+slug: Happyfather
 permalink: "/blog/:categories/:year-:month-:day-:slug.html"
 ---
 <p style=" padding: 0 10px; text-indent: 20px;" >Сердечно поздравляю своего друга.<br>  
