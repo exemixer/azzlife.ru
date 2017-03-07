@@ -4,7 +4,7 @@ title:  "Сердечно поздравляю своего друга "
 description: "Это лучшее что может быть"
 category: offtop
 catname: Оффтоп
-image: "/blog/news/"
+image: "/blog/offtop/"
 icon: beer
 slug: Happyfather
 permalink: "/blog/:categories/:year-:month-:day-:slug.html"
