@@ -1,0 +1,38 @@
+---
+layout: categorypage
+---
+<div class="container">
+          <div class="row">
+          <div class="post_wrapper clearfix">
+            
+            <div class="col-lg-3">
+              <div class="date_wrapper">
+                <div class="date_img">
+                  <img src="{{ site.url }}/assets/img/calendar.jpg" alt="">
+                </div>
+                <div class="date_item">
+                  <div class="date_day"><h2>{{page.date | date:"%d"}}</h2></div>
+                </div>
+                <div class="date_mounth"><h2>{{page.date | date:"%m"}}</h2></div>
+                <div class="date_year"><h2>{{page.date | date:"%Y"}}</h2></div>
+              </div>
+            </div>
+            <div class="col-lg-9">
+              <div class="post_img">
+                <img src="{{ site.baseurl }}{{ page.image}}/{{ page.slug }}.jpg" alt="">
+              </div>
+              
+            </div>
+            <div class="col-lg-12">
+              <span class="post_name">
+                <h2>{{page.title}}</h2>
+              </span>
+            </div>
+            <span class="col-lg-12">
+              <span class="post_content">{{ content }}</p></span>
+            </span>
+            
+          </div>
+        </div>
+        
+      </div>
