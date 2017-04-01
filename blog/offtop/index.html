@@ -1,0 +1,48 @@
+---
+layout: categorypage
+---
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+        <div class="post_category_img">
+          <img src="{{ site.url }}/assets/img/offtop.jpg" alt="">
+        </div>
+        <div class="post_category_icon"><i class="fa fa-coffee" aria-hidden="true"></i></div><div class="post_category_name"><h3>Оффтоп</h3></div>
+      </div>
+  </div>
+</div>
+{% for post in site.categories.offtop %}
+<div class="container">
+          <div class="row">
+          <div class="post_wrapper clearfix">
+            <a href="{{ post.url|prepend: site.baseurl }}">
+            <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
+              <div class="date_wrapper">
+                <div class="date_img">
+                  <img src="{{ site.url }}/assets/img/calendar.jpg" alt="">
+                </div>
+                <div class="date_item">
+                  <div class="date_day"><h2>{{post.date | date:"%d"}}</h2></div>
+                </div>
+                <div class="date_mounth"><h2>{{post.date | date:"%m"}}</h2></div>
+                <div class="date_year"><h2>{{post.date | date:"%Y"}}</h2></div>
+              </div>
+            </div>
+            <div class="col-lg-9 col-md-9 col-xs-12 col-sm-12">
+              <div class="post_img">
+                <img src="{{ site.baseurl }}{{ post.image}}/{{ post.slug }}.jpg" alt="">
+              </div>
+              
+            </div>
+            <div class="col-lg-12">
+              <span class="post_name">
+                <h2>{{ post.title }}</h2>
+              </span>
+            </div>
+            
+            </a>
+          </div>
+        </div>
+        
+      </div>
+{% endfor %}
