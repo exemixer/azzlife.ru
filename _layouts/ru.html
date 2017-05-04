@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  {% include head.html %}
+  {% include header.html %}
+
+<div class="container">
+		<div class="row">
+		<div class="col-lg-12">
+			<div class="html_title"><h1>Рулонные шторы</h1></div>
+		</div>
+		<div class="col-lg-6">
+				<div class="okno_html_title">
+					
+					
+			
+				<img class="okno_html_img" src="{{ site.url }}/assets/img/owl/rull.png" alt="">
+			</div>
+			
+		</div>
+		<div class="col-lg-6">
+		<div class="form_title">
+			<h2>Оставить заявку на шторы</h2>
+		</div>
+			<form action="https://formspree.io/sale@okna.site" method="POST">
+				<label>
+					<span>Ваше имя:</span>
+					<input type="text" name="Имя" placeholder="Ваше имя...">
+				</label>
+
+				<label>
+					<span>Ваш телефон:</span>
+					<input type="text" name="Телефон" placeholder="Ваш телефон..." required>
+				</label>
+				<textarea name="Заявка" id="" placeholder="Ваша заявка..."></textarea>
+    			<input type="submit" value="Отправить заявку" class="submit">
+			</form>
+		</div>
+		<div class="col-lg-12">
+			<div class="okna_html_text">
+				<h3>Эффектные рулонные шторы в различной цветовой гамме, являются оригинальным элементом в оформлении интерьера. Основным приимуществом рулонных штор является плотное прилегание к стеклу окна.Они весьма функциональны и просты в эксплуатации. Рулонные жалюзи можно комбинировать как с обычными шторами, так и с вертикальными жалюзи. В процессе монтажа и демонтажа, на окнах не остается никаких посторонних следов. А особая пропитка предотвращает выгорание и загрязнение тканевого полотна.</h3>
+				<h3>
+					Компания "Бери Окна" рада предложить своим клиентам широкий спектр рулонных штор на любой вкус и кошелек.
+				</h3>
+				
+
+			</div>
+		</div>
+	</div>
+	</div>
+	
+		
+	</header>
+ {% include footer.html %}

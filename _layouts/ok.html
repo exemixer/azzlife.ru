@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  {% include head.html %}
+  {% include header.html %}
+<div class="container">
+		<div class="row">
+		<div class="col-lg-12">
+			<div class="html_title"><h1>Пластиковые и алюминиевые окна</h1></div>
+		</div>
+		<div class="col-lg-6">
+				<div class="okno_html_title">
+					
+					
+			
+				<img class="okno_html_img" src="{{ site.url }}/assets/img/oknopvh.png" alt="">
+			</div>
+			
+		</div>
+		<div class="col-lg-6">
+		<div class="form_title">
+			<h2>Оставить заявку на пластиковые окна</h2>
+		</div>
+			<form action="https://formspree.io/sale@okna.site" method="POST">
+				<label>
+					<span>Ваше имя:</span>
+					<input type="text" name="Имя" placeholder="Ваше имя...">
+				</label>
+
+				<label>
+					<span>Ваш телефон:</span>
+					<input type="text" name="Телефон" placeholder="Ваш телефон..." required>
+				</label>
+				<textarea name="Заявка" id="" placeholder="Ваша заявка..."></textarea>
+    			<input type="submit" value="Отправить заявку" class="submit">
+			</form>
+		</div>
+		<div class="col-lg-12">
+			<div class="okna_html_text">
+				<h3>Компания "Бери Окна" вот уже на протяжении 15 лет производит и устанавливает пластиковые и алюминиевые окна любой конфигурации и сложности. Мы зарекомендовали себя как надежного и профессионального партнера.</h3>
+				<h3>
+					"Бери Окна" устанавливают пластиковые окна в многоквартирных домах, котеджах, в производственных и коммерческих зданиях. Производят монтаж пластиковых и алюминиевых окон на балконах и лоджиях, зимних садах. По заявке заказчика производим сварочные работы, для усиления и расширения оконных конструкций.
+				</h3>
+				<h3>Наша компания предлагает своим клиентам окна от эконом до премиум сегмента. Так же бесплатно предоставляем консультации и расчет по светопрозрачным оконным системам.</h3>
+
+			</div>
+		</div>
+	</div>
+	</div>
+	
+		
+	</header>
+{% include footer.html %}
